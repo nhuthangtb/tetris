@@ -15,12 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Pieces.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Pieces.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

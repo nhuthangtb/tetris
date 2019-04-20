@@ -4,7 +4,7 @@ public :
 	
 
 	int Rotate(int px, int py, int r);
-	Pieces GetBlockType();
+	int GetBlockType(int piece, int rotation, int px, int py);
 	
 };
 
