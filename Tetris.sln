@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.539
+VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetris", "Tetris\Tetris.vcxproj", "{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tetris", "Tetris\Tetris.vcxproj", "{510A6851-0098-4905-AC43-D502605F10FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,19 +13,19 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Debug|x64.ActiveCfg = Debug|x64
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Debug|x64.Build.0 = Debug|x64
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Debug|x86.ActiveCfg = Debug|Win32
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Debug|x86.Build.0 = Debug|Win32
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Release|x64.ActiveCfg = Release|x64
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Release|x64.Build.0 = Release|x64
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Release|x86.ActiveCfg = Release|Win32
-		{0751B6B0-CA2F-4B63-BA7E-F556A8A63FED}.Release|x86.Build.0 = Release|Win32
+		{510A6851-0098-4905-AC43-D502605F10FB}.Debug|x64.ActiveCfg = Debug|x64
+		{510A6851-0098-4905-AC43-D502605F10FB}.Debug|x64.Build.0 = Debug|x64
+		{510A6851-0098-4905-AC43-D502605F10FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{510A6851-0098-4905-AC43-D502605F10FB}.Debug|x86.Build.0 = Debug|Win32
+		{510A6851-0098-4905-AC43-D502605F10FB}.Release|x64.ActiveCfg = Release|x64
+		{510A6851-0098-4905-AC43-D502605F10FB}.Release|x64.Build.0 = Release|x64
+		{510A6851-0098-4905-AC43-D502605F10FB}.Release|x86.ActiveCfg = Release|Win32
+		{510A6851-0098-4905-AC43-D502605F10FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {49E0614E-668F-4984-81C3-21E9BB99EB16}
+		SolutionGuid = {E96AD84B-DB93-4AD3-8998-F58ED8AFCC73}
 	EndGlobalSection
 EndGlobal

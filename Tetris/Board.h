@@ -1,20 +1,22 @@
 #pragma once
-
-
-#include "Pieces.h"
+#include "Piece.h"
+#define WIDTH 10
+#define HEIGHT 20
 class Board {
 public:
-	void createBoard();
-	void displayBoard();
+	
+	Board(Piece* piece);
+	
+	void initBoard();
+	void savePiece(int type, int angle,int px, int py);
+	void deleteLine(int PY);
+	void deletePossibleLine();
+	bool isBlock(int px, int py);
+	bool isColission(int type, int angle, int px, int py) ;
 	bool isGameOver();
-	void removeLine(int py);
-	void removeAllLines();
-	void drawPiece(int piece, int rotation, int px, int py);
-	int left(int px, int py);
-	int right(int px, int py);
-	int down(int px, int py);
-	bool inside(int px, int py);
-	bool isMove(int piece, int rotation, int px, int py);
+	int getScore() { return this->score; } 
 private:
-	Pieces *pPiece;
+	int score;
+	int board[WIDTH][HEIGHT];
+	Piece* pPiece;
 };
